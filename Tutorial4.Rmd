@@ -32,7 +32,7 @@ The above Figure \@ref(fig:Figref) is some random plot.
 
 ## Learning to reference tables
 ```{r newtable}
-dat_tbl <- head(dat,5)
+dat_tbl <- head(dat,10)
 ```
 
 The above table \@ref(tab:newtable) is 5 observations of the overall table on which above plot was created
