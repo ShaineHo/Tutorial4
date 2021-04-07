@@ -35,4 +35,10 @@ The above Figure \@ref(fig:Figref) is some random plot.
 dat_tbl <- head(dat,5)
 ```
 
+
+```{r}
+ggplot(dat, aes(x = x, y = y))+
+  geom_point()
+```
+
 The above table \@ref(tab:newtable) is 5 observations of the overall table on which above plot was created
